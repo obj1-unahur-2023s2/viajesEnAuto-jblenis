@@ -12,7 +12,7 @@ object oficina {
 	
 	
 	method  intercambiarRemiseras(){
-		oficina.asignarRemiseras(segundaOpcion,primeraOpcion)
+		self.asignarRemiseras(segundaOpcion,primeraOpcion)
 	}
 	
     method  remiseraElegidaParaViaje(cliente, km) = 

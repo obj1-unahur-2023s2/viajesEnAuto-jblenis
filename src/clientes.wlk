@@ -3,7 +3,7 @@ object ludmila {
 }
 
 object anaMaria {
-	var economicamenteEstable=true
+	var economicamenteEstable = true
 	
 	method economicamenteEstable(nuevoEstado){
 		economicamenteEstable = nuevoEstado
@@ -35,5 +35,5 @@ object melina{
 		trabajaPara=cliente
 	}
 	
-	method precioPorKm() = trabajaPara.precioPorKm() -3	
+	method precioPorKm() = trabajaPara.precioPorKm() - 3	
 }
